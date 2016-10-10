@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Amasty Team
+ * @copyright Copyright (c) 2016 Amasty (https://www.amasty.com)
+ * @package Amasty_Promo
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <ampromo>
+            <general>
+                <auto_add>1</auto_add>
+            </general>
+            <messages>
+                <cart_message>FREE!</cart_message>
+                <prefix>FREE - </prefix>
+                <add_message><![CDATA[Select your <a href="#" data-role="ampromo-popup-show">FREE GIFT</a>!]]></add_message>
+                <display_error_messages>1</display_error_messages>
+                <display_success_messages>1</display_success_messages>
+            </messages>
+            <banners>
+                <mode>product</mode>
+                <single>1</single>
+                <enabled_top>1</enabled_top>
+                <enabled_above_cart>1</enabled_above_cart>
+            </banners>
+            <gift_images>
+                <gift_image_width>50</gift_image_width>
+                <gift_image_height>50</gift_image_height>
+                <attribute_header>name</attribute_header>
+                <attribute_description>description</attribute_description>
+            </gift_images>
+        </ampromo>
+    </default>
+</config>
